@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node (common; harmless if unused)
+node_modules/
+
+# Python http.server cache
+__pycache__/
+
+# Editors / IDEs
+.idea/
+.vscode/
