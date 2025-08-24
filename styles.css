@@ -133,4 +133,7 @@ a { color: inherit; text-decoration: none; }
   .brand-logo { width: 30px; height: 30px; }
 }
 
+/* Utilities */
+.hidden { display: none; }
+
 

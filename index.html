@@ -69,7 +69,7 @@
         <div class="container">
           <h2 class="section-title">Who is Taios For?</h2>
           <div class="audience-grid">
-            <article class="card audience-card"><h3>Governments and Policymakers, hola Abraham</h3></article>
+            <article class="card audience-card"><h3>Governments and Policymakers</h3></article>
             <article class="card audience-card"><h3>Social media platforms</h3></article>
             <article class="card audience-card"><h3>Stock and crypto trading platforms</h3></article>
             <article class="card audience-card"><h3>Democracy monitoring groups</h3></article>
@@ -92,7 +92,9 @@
                 <li>Email: <a href="mailto:info@taios-ai.com">info@taios-ai.com</a></li>
               </ul>
             </div>
-            <form class="contact-form" name="contact" method="post" onsubmit="event.preventDefault(); this.reset(); alert('Thanks! We\'ll be in touch.');">
+            <form class="contact-form" name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field" accept-charset="UTF-8">
+              <input type="hidden" name="form-name" value="contact" />
+              <div class="hidden"><label>Don’t fill this out: <input name="bot-field" /></label></div>
               <div class="form-row">
                 <label for="name">Name</label>
                 <input id="name" name="name" type="text" required placeholder="Your name" />
