@@ -121,7 +121,7 @@ a { color: inherit; text-decoration: none; }
   padding: .7rem .8rem; border-radius: .6rem; border: 1px solid rgba(0,0,0,0.14);
   background: #FFFFFF; color: #000000;
 }
-.form-row input::placeholder, .form-row textarea::placeholder { color: #A8A8A8; }
+.form-row input::placeholder, .form-row textarea::placeholder { color: #A8A8A8;  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji';} 
 .form-submit { width: 100%; margin-top: .25rem; }
 
 /* Footer */
