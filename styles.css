@@ -70,7 +70,7 @@ a { color: inherit; text-decoration: none; }
 .hero { padding-top: 7rem; overflow: hidden; }
 .hero-inner { display: grid; grid-template-columns: 1fr; }
 .hero-content { text-align: center; }
-.headline { color: #000000; font-size: clamp(2rem, 2.4vw + 1.2rem, 3rem); line-height: 1.2; margin: 0 0 1rem; font-weight: 800; letter-spacing: -0.01em; }
+.headline { color: #000000; font-size: clamp(2.55rem, 2.4vw + 1.2rem, 3rem); line-height: 1.2; margin: 0 0 1rem; font-weight: 800; letter-spacing: -0.01em; }
 .subhead { color: #A8A8A8; font-size: clamp(1rem, .6vw + .9rem, 1.25rem); margin: 0 auto 1.5rem; max-width: 60ch; }
 .hero-cta { display: flex; align-items: center; justify-content: center; gap: .75rem; }
 
